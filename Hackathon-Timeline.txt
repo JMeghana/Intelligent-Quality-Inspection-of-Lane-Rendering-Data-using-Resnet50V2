@@ -1,0 +1,48 @@
+Week -3: 27thAug to 10Sep:
+	Preprocessing:
+		Trim Images Top and Bottom.
+		Change the class count to 1 from 8. (Dumb Mistake)
+	Try out 4 new models:
+		   and another 1..
+		
+	Meghana:
+		Preprocessing:
+			Trim Images Top and Bottom.
+			Change the class count to 1 from 8. (Dumb Mistake)
+		ResNet50V2
+	Surangana:
+		Preprocessing:
+			Trim Images Top and Bottom.
+			Change the class count to 1 from 8. (Dumb Mistake)
+		MobileNetv2
+	Samarth:
+		ResNet101V2 and one more.. 
+		System to track uploads:
+			Data used, Model used, model settings, attained ROCAUC score(after upload)..
+		
+	Weekend.. Saturday..
+		Get predictions into csv and upload..
+		
+	
+Week -2: 10Sep to 17Sep:
+
+	Take the best model we have.
+	Predict the unlabelled data, having probability > 90% (or 95).
+	Consider the predictions as labels:
+		When labelled, compare the Ratio of error between:
+			Original Training set.
+			Assigned labels on Unlabelled set.
+		
+	Then Retrain more..
+	Compare the accuracy before and after Unlabelled data train.
+	Setup DVC Pipeline for tracking Models.
+	
+	Hyperparameters Exp:
+		Threshold or probability for labelling unlabelled data.
+		Amount of unlabelled data to be fed.
+	Monitoring:
+		Difference in accuracy.
+		
+Week -1: 17Sep to 24Sep (DDay):
+	
+	Testing out different approaches and buffer..
