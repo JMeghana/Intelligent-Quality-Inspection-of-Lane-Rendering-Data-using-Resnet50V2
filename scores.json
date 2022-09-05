@@ -1,0 +1,10 @@
+{
+    "0" : {
+        "accuracy": 0.0,
+        "roc_auc" : 0.0,
+        "loss": 0.0,
+        "val_accuracy": 0.0,
+        "val_roc_auc" : 0.0,
+        "val_loss": 0.0
+    }
+}
