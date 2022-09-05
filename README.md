@@ -20,6 +20,9 @@ pip check
 # If there are no broken requirements, export requirements.txt
 pip list --format=freeze > requirements.txt
 
+# Check Branch..
+git branch -a
+
 # Commit to git.
 git add .
 git commit -m "<Commit Message>"

@@ -1,0 +1,24 @@
+# This contains params to be used by the stages to train or predict
+base:
+  global_seed: 10
+  train_test_split: 0.96
+
+data_preprocessings_applied:
+  crop_image: True
+
+model_params:
+  Resnet50V2_1:
+    input_shape: (1000,500)
+    batch_size: 3
+    steps_per_epoch: 2500
+    model_path: 'Models\Resnet50V2.h5'
+    image_data_generator:
+      rescale: 1./255
+      rotation_range: 10
+      shear_range: 0.2
+      horizontal_flip: True
+      vertical_flip: True
+    cur_starting_epoch: 0
+    history_path: 'ScoreHistory\Model_CheckPoint_Resnet_history.json'
+    history_skip_count: 10
+
