@@ -1,4 +1,4 @@
-# Huawei Hackathon  - Go Team **AbsoluteNoobs** 🏆🏆
+# Intelligent Quality Inspection of Lane Rendering Data using Resnet50V2 - Huawei Hackathon  //- Go Team **AbsoluteNoobs** 🏆🏆
 
 ## Initial Setup : 
 
